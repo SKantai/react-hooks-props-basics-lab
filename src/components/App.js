@@ -12,14 +12,15 @@ function App() {
     <div>
       <NavBar />
       <Home 
-      color = "firebrick"
-      name = "Liza"
-      city = "New York"
+      color = {user.color}
+      name = {user.name}
+      city = {user.city}
       />
       <About 
-      bio = " I made this!"
+      bio = {user.bio}
       github ="https://github.com/liza"
       linkedin = "https://www.linkedin.com/in/liza/"
+      
       />
     </div>
   );
